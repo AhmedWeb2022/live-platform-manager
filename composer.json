@@ -1,0 +1,42 @@
+{
+  "name": "waheed43/live-platform-manager",
+  "description": "Laravel package for backing up and managing backups on Google Drive with Telegram notifications",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your-email@example.com"
+    }
+  ],
+  "require": {
+        "firebase/php-jwt": "^6.10",
+        "laravel/framework": "^11.31",
+        "laravel/sanctum": "^4.0",
+        "laravel/tinker": "^2.9",
+        "paragonie/sodium_compat": "^2.1",
+        "ramsey/uuid": "^4.7",
+        "yajra/laravel-datatables": "^11.0"
+  },
+   "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "laravel/pail": "^1.1",
+        "laravel/pint": "^1.13",
+        "laravel/sail": "^1.26",
+        "mockery/mockery": "^1.6",
+        "nunomaduro/collision": "^8.1",
+        "phpunit/phpunit": "^11.0.1"
+    },
+  "autoload": {
+    "psr-4": {
+      "ahmedWeb\\LivePlatformManager\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ahmedWeb\\LivePlatformManager\\LivePlatformManagerServiceProvider"
+      ]
+    }
+  }
+}

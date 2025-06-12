@@ -1,0 +1,5 @@
+@include('liveplatform::dashboard.layout.header')
+@include('liveplatform::dashboard.layout.sidebar')
+@include('liveplatform::dashboard.layout.navbar')
+@yield('content')
+@include('liveplatform::dashboard.layout.footer')
